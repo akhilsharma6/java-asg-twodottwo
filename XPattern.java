@@ -1,4 +1,4 @@
-/*Logic to draw the following X Patterns.
+/* Logic to draw the following X Patterns.
 	*___________*
 	___*_____*
 	______*
