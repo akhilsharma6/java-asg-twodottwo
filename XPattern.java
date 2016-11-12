@@ -10,11 +10,11 @@ class XPattern {
 	{
 	int row_max=5;  // initialize maximum rows
 	int col_max=12; // initialize maximum columns
-		for (int row=0; row<row_max;row++) //For loop for rows
+		for (int row=0; row<row_max; row++) //For loop for rows
 		{
 			for (int col=0; col<=col_max; col++) //Nested For loop for columns
 			{
-				if ((col == ((3*row)))||(col == col_max - (3*row))) //Here, we will check if get a match then print astrix.
+				if ((col == ((3*row))) || (col == col_max - (3*row))) //Here, we will check if get a match then print astrix.
 				{
 			   		System.out.print("*");
 				}
